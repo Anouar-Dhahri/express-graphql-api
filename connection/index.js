@@ -2,7 +2,8 @@ const mongoose = require('mongoose');
 
 const mongoConnect = async (req, res, next) => {
   try {
-    await mongoose.connect(process.env.URI, {useNewUrlParser: true, useUnifiedTopology: true})
+    //use process.env.URI to connect to your local mongo db
+    await mongoose.connect(process.env.LIVE_URI, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(()=> {
       console.log("Connected Succesfully to MongoDB")
     }).catch((err)=> {
