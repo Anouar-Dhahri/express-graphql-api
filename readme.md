@@ -2,7 +2,7 @@
 
 #### CRUD API with Express GraphQL
 
-Project in Action - [ExpressGraphGLAPI](https://www.jobify.live/)
+Project in Action - [ExpressGraphGLAPI](https://expressgraphql-api.herokuapp.com/graphql)
 
 #### Run The App Locally
 
